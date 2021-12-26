@@ -1,0 +1,37 @@
+{
+  "name": "@sujaykumarh/project",
+  "version": "0.0.1",
+  "description": "project starter script",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "cli": "node src/index.js",
+    "minify": "terser src/index.js -o dist/index.js -c -m --module --pretty",
+    "build": "terser src/index.js -o dist/index.js --module --pretty",
+    "watch": "terser --watch src/index.js -o dist/index.js --module --pretty",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujaykumarh/project.git"
+  },
+  "keywords": [
+    "starter-kit",
+    "project-starter",
+    "sujaykumarh"
+  ],
+  "author": "Sujaykumar Hublikar <hello@sujaykumarh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sujaykumarh/project/issues"
+  },
+  "homepage": "https://github.com/sujaykumarh/project#readme",
+  "dependencies": {
+    "cli-spinners": "^2.6.1",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "terser": "^5.10.0"
+  }
+}
