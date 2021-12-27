@@ -1,7 +1,7 @@
 {
-  "name": "@sujaykumarh/project",
+  "name": "@sujaykumarh/start",
   "version": "0.0.1",
-  "description": "project starter script",
+  "description": "starter script",
   "source": "src/index.js",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sujaykumarh/project.git"
+    "url": "git+https://github.com/sujaykumarh/start.git"
   },
   "keywords": [
     "starter-kit",
@@ -23,9 +23,10 @@
   "author": "Sujaykumar Hublikar <hello@sujaykumarh.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sujaykumarh/project/issues"
+    "url": "https://github.com/sujaykumarh/start/issues"
   },
-  "homepage": "https://github.com/sujaykumarh/project#readme",
+  "wiki": "https://github.com/sujaykumarh/start/wiki",
+  "homepage": "https://github.com/sujaykumarh/start#readme",
   "dependencies": {
     "cli-spinners": "^2.6.1",
     "commander": "^8.3.0",
