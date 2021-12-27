@@ -1,7 +1,8 @@
 # Project Starter
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sujaykumarh/project.git)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project)](https://www.npmjs.com/package/@sujaykumarh/project)
+[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/sujaykumarh/project/main?color=brighgreen&label=main)](https://github.com/sujaykumarh/project/tree/main)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project/dev?color=brightgreen&label=dev)](https://github.com/sujaykumarh/project/tree/dev)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sujaykumarh/project/Build%20&%20Publish%20package)](https://github.com/sujaykumarh/project/actions)
 
 **Install globally with npm [optional]**
@@ -10,15 +11,23 @@
 $ npm install -g @sujaykumarh/project
 
 # To run the project
-$ project new project-name
+$ project new project PROJECT_NAME
 ```
+
+OS | supported? | tested? | comment
+--- | --- | --- | ---
+Linux | ✅ | ✅ | default
+MacOS | ⬛ | ❌ | create pr to add support
+Windows | ❌ | ❌ | not supported. create pr to add support
+
+<br>
 
 **Usage:**
 
-init default config $HOME/.my-project-config.json
+init default config $HOME/.config/default-project-config.json
 
 ```sh
-$ npx @sujaykumarh/project init
+$ npx @sujaykumarh/project config init
 ```
 
 Create project
@@ -29,34 +38,7 @@ $ npx @sujaykumarh/project
 
 **Options:**
 
-```sh
-$ npx @sujaykumarh/project <options>
-
--c, --config <path>     Path to config file
--h, --help              Show help
--v, --version           Show version
--d, --debug             Debug mode
-
--p, --path <path>       Path to project [default: ./]
--r, --repo <repo>       Repo name [default: config.repo]
--b, --branch <branch>   Branch name [default: main]
-```
-
-**Commands:**
-
-```sh
-$ npx @sujaykumarh/project <command> [options]
-
-init                   Initialize project default config
-help                   Show help
-version                Show version
-
-new                    Create new project
-
-[options]
-
-new <project-name>     create new project with name
-```
+Please read [wiki](https://github.com/sujaykumarh/project/wiki) for more details.
 
 <br>
 

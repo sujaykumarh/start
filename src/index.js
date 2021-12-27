@@ -7,6 +7,7 @@ const cliSpinners = require("cli-spinners");
 // Global constants
 const DEFAULT_SPINNER = cliSpinners.dots2;
 const APP_VERSION = package_json.version;
+const APP_NAME = package_json.name;
 
 
 // Global variables
@@ -52,7 +53,7 @@ class mySpinner {
   };
 }
 
-const loadingSpinner = new mySpinner();
+// const loadingSpinner = new mySpinner();
 // loadingSpinner.start("Loading....");
 // setTimeout(() => {
 //     loadingSpinner.stop("✅ Done\n")
@@ -66,21 +67,60 @@ function setupCommands() {
 
   commands
     .option("-d, --debug", "output extra debugging")
-    .option("-s, --small", "small pizza size");
 
-  commands
-    .command("new <name> [type]")
+  // New Project Command
+  newCmd = commands
+    .command("new")
+    .description("create new from template")
+
+  newCmd
+    .command("project")
     .description("start a new project")
-    .action((name, type) => {
-      console.log("" + name + " starting a new project");
+    .action(() => {
+      console.log("new project");
+      finish();
     });
 
-  // commands
-  //   .command("clone <source> [destination]")
-  //   .description("clone a repository into a newly created directory")
-  //   .action((source, destination) => {
-  //     console.log("clone command called");
-  //   });
+  newCmd
+    .command("gitignore")
+    .description("create new gitignore file")
+    .argument("<type>")
+    .action((type) => {
+      console.log("new .gitignore file type:", type);
+      finish();
+    });
+
+  newCmd
+    .command("license")
+    .description("create new LICENSE file")
+    .argument("<type>")
+    .action(() => {
+      console.log("new LICENSE file type:", type);
+      finish();
+    });
+
+  // newCmd
+  //   .command("")
+
+
+  // Configure the CLI
+  configCmd = commands
+    .command("config")
+    .description(APP_NAME + " default config")
+
+  configCmd
+    .command("list")
+    .description("list all default configs")
+    .action(() => {
+      console.log("list all default configs");
+    });  
+    
+  configCmd
+    .command("init")
+    .description("initilize default config")
+    .action(() => {
+      console.log("initilize default config");
+    });
 }
 
 // process args
@@ -99,7 +139,6 @@ function main() {
 
 // finish
 function finish() {
-  console.log("completed!");
   process.exit();
 }
 
