@@ -90,5 +90,11 @@ vendor
 ## Custom config
 !.gitkeep
 .env
-/_
-.parcel-cache
+
+## NodeJS
+node_modules
+**/node_modules
+*.log
+**/npm-debug.log
+package-lock.json
+tmp/

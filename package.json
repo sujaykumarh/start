@@ -2,13 +2,16 @@
   "name": "@sujaykumarh/start",
   "version": "0.0.1",
   "description": "starter script",
-  "source": "src/index.js",
-  "main": "dist/index.js",
+  "source": "./lib/index.js",
+  "main": "./lib/index.js",
+  "bin": {
+    "start": "./bin/start"
+  },
+  "contributors": [
+    "Sujaykumar Hublikar hello@sujaykumarh.com"
+  ],
   "scripts": {
-    "cli": "node src/index.js",
-    "minify": "terser src/index.js -o dist/index.js -c -m --module --pretty",
-    "build": "terser src/index.js -o dist/index.js --module --pretty",
-    "watch": "terser --watch src/index.js -o dist/index.js --module --pretty",
+    "cli": "bin/start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +36,6 @@
     "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "terser": "^5.10.0"
+    "eslint": "^8.5.0"
   }
 }
