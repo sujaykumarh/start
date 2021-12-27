@@ -63,10 +63,10 @@ class mySpinner {
 // setup commands
 function setupCommands() {
   commands
-    .version(APP_VERSION, "-v, --version", "show version")
+    .version(APP_VERSION, "--version", "show version")
 
   commands
-    .option("-d, --debug", "output extra debugging")
+    .option("-v, --verbose", "print extra information")
 
   // New Project Command
   newCmd = commands
