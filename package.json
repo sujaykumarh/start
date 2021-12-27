@@ -8,7 +8,7 @@
     "start": "./bin/start"
   },
   "contributors": [
-    "Sujaykumar Hublikar hello@sujaykumarh.com"
+    "Sujaykumar Hublikar <hello@sujaykumarh.com>"
   ],
   "scripts": {
     "cli": "bin/start",
