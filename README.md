@@ -10,8 +10,11 @@
 ```sh
 $ npm install -g @sujaykumarh/start
 
-# To run the project
-$ project new project PROJECT_NAME
+# help
+$ start --help
+
+# To create new project
+$ start new project PROJECT_NAME
 ```
 
 OS | supported? | tested? | comment
