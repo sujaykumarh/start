@@ -1,8 +1,0 @@
-version: 1
-
-types:
-
-  - name: laravel
-    description: laravel project
-    path: ./laravel
-    
