@@ -33,9 +33,18 @@
   "dependencies": {
     "cli-spinners": "^2.6.1",
     "commander": "^8.3.0",
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "spdx-license-list": "^6.4.0"
   },
   "devDependencies": {
     "eslint": "^8.5.0"
-  }
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ]
 }
