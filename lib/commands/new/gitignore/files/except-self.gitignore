@@ -1,0 +1,4 @@
+## Self gitignore
+*
+!.gitignore
+!.gitkeep
