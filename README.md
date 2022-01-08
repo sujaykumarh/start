@@ -6,7 +6,7 @@ all in one starter npm-cli application for creating updating files, projects and
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?logo=github)](https://github.com/sujaykumarh/start.git) [![wiki](https://img.shields.io/badge/Read-Wiki-blue?logo=github&color=blue)](https://github.com/sujaykumarh/start/wiki) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sujaykumarh/project/Build%20&%20Publish%20package?logo=github)](https://github.com/sujaykumarh/start/actions)
 
-[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/sujaykumarh/project/main?color=brightgreen&label=main&logo=npm)](https://github.com/sujaykumarh/start/tree/main) [![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project/dev?color=orange&label=dev&logo=npm)](https://github.com/sujaykumarh/start/tree/dev) [![GitHub all releases](https://img.shields.io/github/downloads/sujaykumarh/start/total?color=blue&logo=github)]() [![npm](https://img.shields.io/npm/dt/@sujaykumarh/start?color=blue&logo=npm)]()
+[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/sujaykumarh/project/main?color=brightgreen&label=main&logo=npm)](https://github.com/sujaykumarh/start/tree/main) [![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project/dev?color=orange&label=dev&logo=npm)](https://github.com/sujaykumarh/start/tree/dev) [![GitHub all releases](https://img.shields.io/github/downloads/sujaykumarh/start/total?color=blue&logo=github)](https://github.com/sujaykumarh/start/releases) [![npm](https://img.shields.io/npm/dt/@sujaykumarh/start?color=blue&logo=npm)](https://www.npmjs.com/package/@sujaykumarh/start)
   
 
 <br>
