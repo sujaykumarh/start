@@ -36,10 +36,7 @@ jobs:
       # dist setup
       - run: echo ARCHIVE="sujaykumarh-start-${{ env.RELEASE_VERSION }}.zip" >> $GITHUB_ENV
       - run: mv LICENSE LICENSE.txt
-
-        # Build for dist
-      - run: npm run minify
-
+  
       # Publish to npm
       - name: "🚀 Publish to npm"
         uses: JS-DevTools/npm-publish@v1
