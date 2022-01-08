@@ -1,7 +1,8 @@
 {
   "name": "@sujaykumarh/start",
-  "version": "0.0.2-1",
-  "description": "starter script",
+  "version": "0.0.2-2",
+  "description": "all in one interactive starter npm-cli application",
+  "funding": "https://github.com/sujaykumarh/start?sponsor=1",
   "source": "./lib/index.js",
   "main": "./lib/index.js",
   "bin": {
