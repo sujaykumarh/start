@@ -26,7 +26,7 @@ Lightweight interactive all in one starter npm-cli app.
 
 <br>
 
-Interactiv cli to
+Interactive cli
 
 * create/update **.gitignore**
 * create **LICENSE**
