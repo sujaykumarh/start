@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://github.com/sujaykumarh/start/blob/dev/media/windowsterminal.svg" height="20"> Interactive Starter
+# <img src="https://raw.githubusercontent.com/sujaykumarh/start/dev/media/windowsterminal.svg" height="20"> Interactive Starter
 
 <p align="center">
 <b>
@@ -40,7 +40,7 @@ Interactiv cli to
 <p align="center">
 
 <!-- TODO: replace with GIF -->
-[![ss](https://github.com/sujaykumarh/start/blob/dev/media/ss.png)]()
+[![ss](https://raw.githubusercontent.com/sujaykumarh/start/dev/media/ss.png)]()
 
 </p>
 
