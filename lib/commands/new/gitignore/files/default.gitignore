@@ -1,4 +1,4 @@
-## Download this template at https://gist.github.com/Sujaykumarh/9969846612a7504c4aadb677276d3a53
+## default gitignore file
 ##
 ## Combinined GitHub's https://github.com/github/gitignore
 ##
@@ -81,20 +81,19 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-## software defaults
+## common software defaults
 node_modules
 vendor
+bower_components
+coverage
+logs
+tmp
 
 
-
-## Custom config
+# common default
 !.gitkeep
 .env
 
-## NodeJS
-node_modules
-**/node_modules
-*.log
-**/npm-debug.log
-package-lock.json
-tmp/
+#############
+## Custom config
+#############

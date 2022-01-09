@@ -15,8 +15,7 @@ jobs:
     steps:
 
       # Pull Source Code
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Set env
@@ -32,15 +31,12 @@ jobs:
 
       # Setup env
       - run: echo ${{ env.RELEASE_VERSION }} >> Release.txt
+      - run: git log --oneline > CHANGELOG.txt
 
       # dist setup
-      - run: rm -rf dist/.git* # delete .git* files in dist
-      - run: echo ARCHIVE="sujaykumarh-project-${{ env.RELEASE_VERSION }}.zip" >> $GITHUB_ENV
+      - run: echo ARCHIVE="sujaykumarh-start-${{ env.RELEASE_VERSION }}.zip" >> $GITHUB_ENV
       - run: mv LICENSE LICENSE.txt
-
-        # Build for dist
-      - run: npm run minify
-
+  
       # Publish to npm
       - name: "🚀 Publish to npm"
         uses: JS-DevTools/npm-publish@v1
@@ -61,7 +57,7 @@ jobs:
       # package for release
       - name: "📦 zipping files"
         run: |
-          zip -r ${{ env.ARCHIVE }} ./src ./dist LICENSE* package* *.config.js README.md
+          zip -r ${{ env.ARCHIVE }} ./lib ./bin LICENSE* package* README* CHANGELOG*
 
           unzip -l ${{ env.ARCHIVE }}
 

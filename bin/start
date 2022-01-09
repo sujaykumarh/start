@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+/*
+MIT License
+Copyright (c) 2021 Sujaykumar Hublikar <hello@sujaykumarh.com>
+*/
+
+index = require('../lib/index.js');
+index.main();
