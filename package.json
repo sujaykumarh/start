@@ -1,6 +1,6 @@
 {
   "name": "@sujaykumarh/start",
-  "version": "0.0.2-2",
+  "version": "0.0.2",
   "description": "Interactive starter npm-cli app",
   "funding": "https://github.com/sujaykumarh/start?sponsor=1",
   "source": "./lib/index.js",
