@@ -52,6 +52,7 @@
     "inquirer-checkbox-plus-prompt": "^1.0.1",
     "inquirer-fuzzy-path": "^2.3.0",
     "inquirer-search-list": "^1.2.6",
+    "prompts": "^2.4.2",
     "spdx-license-list": "^6.4.0"
   },
   "devDependencies": {
