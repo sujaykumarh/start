@@ -20,8 +20,19 @@
     "url": "git+https://github.com/sujaykumarh/start.git"
   },
   "keywords": [
-    "starter-kit",
-    "project-starter",
+    "cli",
+    "starter",
+    "npm",
+    "interactive",
+    "interactive-cli",
+    "ui",
+    "ui-cli",
+    "ask",
+    "interact",
+    "menu",
+    "starter-cli",
+    "project-cli",
+    "create-cli",
     "sujaykumarh"
   ],
   "author": "Sujaykumar Hublikar <hello@sujaykumarh.com>",
