@@ -1,39 +1,57 @@
 <div align="center">
 
-# Interactive Starter
-  
-all in one starter npm-cli application for creating updating files, projects and more...  
+# <img src="https://github.com/sujaykumarh/start/blob/dev/media/windowsterminal.svg" height="20"> Interactive Starter
+
+<p align="center">
+<b>
+Lightweight interactive all in one starter npm-cli app.
+</b>
+</p>
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?logo=github)](https://github.com/sujaykumarh/start.git) [![wiki](https://img.shields.io/badge/Read-Wiki-blue?logo=github&color=blue)](https://github.com/sujaykumarh/start/wiki) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sujaykumarh/project/Build%20&%20Publish%20package?logo=github)](https://github.com/sujaykumarh/start/actions)
 
-[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/sujaykumarh/project/main?color=brightgreen&label=main&logo=npm)](https://github.com/sujaykumarh/start/tree/main) [![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project/dev?color=orange&label=dev&logo=npm)](https://github.com/sujaykumarh/start/tree/dev) [![GitHub all releases](https://img.shields.io/github/downloads/sujaykumarh/start/total?color=blue&logo=github)](https://github.com/sujaykumarh/start/releases) [![npm](https://img.shields.io/npm/dt/@sujaykumarh/start?color=blue&logo=npm)](https://www.npmjs.com/package/@sujaykumarh/start)
-  
+
+
+<p align="center">
+<sub> to get started run </sub>
+<br>
+<h3>npx @sujaykumarh/start</h3>
+</p>
 
 <br>
 
-<small> to get started run </small>
-
-### `npx @sujaykumarh/start`
-  
-<!-- TODO: replace with GIF -->
-[![ss](https://raw.githubusercontent.com/sujaykumarh/start/dev/.github/ss/ss.png)]()
+[![npm version](https://img.shields.io/npm/v/@sujaykumarh/start?color=blue&logo=npm)](https://www.npmjs.com/package/@sujaykumarh/start) [![GitHub all releases](https://img.shields.io/github/downloads/sujaykumarh/start/total?color=brighgreen&logo=github)](https://github.com/sujaykumarh/start/releases) [![npm](https://img.shields.io/npm/dt/@sujaykumarh/start?color=blue&logo=npm)](https://www.npmjs.com/package/@sujaykumarh/start)
 
 </div>
 
 <br>
 
-**Usage:**
+Interactiv cli to
+
+* create/update **.gitignore**
+* create **LICENSE**
+* create **Project** from [template](TODO-addlink-to-list) _[ToDo]_
+
+
+<br>
+
+**DEMO**
+
+<p align="center">
+
+<!-- TODO: replace with GIF -->
+[![ss](https://github.com/sujaykumarh/start/blob/dev/media/ss.png)]()
+
+</p>
+
+
+<br>
+
+**❯ Usage:**
 
 ```sh
 # Start using it with npx
 $ npx @sujaykumarh/start
-
-# get version
-$ npx @sujaykumarh/start --version
-
-# To create something new
-$ npx @sujaykumarh/start new --help
-
 
 # or Install globally with npm 
 # to use it as standalone package binary $ start <command>
@@ -41,9 +59,9 @@ $ npm install -g @sujaykumarh/start
 $ start --help
 ```
 
-**Commands:**
+**❯ Commands:**
 
-status  | ✅ working | ⬛ TODO
+<sub>status: ✅ working, ⬛ ToDo, ❌ removed</sub>
 
 |command | sub-command | status | description
 |--- | --- | --- | ---
@@ -61,13 +79,23 @@ Please read [wiki](https://github.com/sujaykumarh/start/wiki) for more details o
 
 <br>
 
-**Supported OS:**
+**versions**
+
+<sub>current `package.json` verison on branch</sub>
+
+[![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/sujaykumarh/project/main?color=brightgreen&label=main%20/%20stable&logo=npm)](https://github.com/sujaykumarh/start/tree/main) [![GitHub package.json version](https://img.shields.io/github/package-json/v/sujaykumarh/project/dev?color=blue&label=dev&logo=npm)](https://github.com/sujaykumarh/start/tree/dev)
+
+
+<br>
+
+**❯ Platform Support:**
 
 OS | supported? | tested? | comment
 --- | --- | --- | ---
-Linux | ✅ | ✅ | default
+Linux | ✅ | ✅ | developed and tested on `Arch Linux`, `Ubuntu`
 MacOS | ⬛ | ❌ | should work*. create pr to add support. create issues to report bugs.
 Windows | ❌ | ❌ | not supported. create pr to add support
+
 
 <br>
 
