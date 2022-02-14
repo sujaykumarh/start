@@ -13,7 +13,7 @@ Lightweight interactive all in one starter npm-cli app.
 
 
 <p align="center">
-<sub> to get started run </sub>
+<sub> 🚀 Ready set go... to get started run </sub>
 <br>
 <h3>npx @sujaykumarh/start</h3>
 </p>
@@ -30,7 +30,7 @@ Interactive cli
 
 * create/update **.gitignore**
 * create **LICENSE**
-* create **Project** from [template](TODO-addlink-to-list) _[ToDo]_
+* create **Project** from [template](TODO-addlink-to-list) _[TODO]_
 
 
 <br>
