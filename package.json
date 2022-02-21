@@ -51,7 +51,7 @@
     "gauge": "^4.0.0",
     "https": "^1.0.0",
     "inquirer": "^8.2.0",
-    "inquirer-autocomplete-prompt": "^1.4.0",
+    "inquirer-autocomplete-prompt": "^2.0.0",
     "inquirer-checkbox-plus-prompt": "^1.0.1",
     "inquirer-fuzzy-path": "^2.3.0",
     "inquirer-search-list": "^1.2.6",
