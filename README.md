@@ -63,14 +63,21 @@ $ start --help
 
 <sub>status: ✅ working, ⬛ ToDo, ❌ removed</sub>
 
+**usage:**
+
+```sh
+$ start <command> <subcommand> [options]
+```
+
 |command | sub-command | status | description
 |--- | --- | --- | ---
-| new | | | create / append something new 
+| `new` | | | create / append something new 
 |    | `gi` or `gitignore` | ✅ | create or append-to .gitignore file
 |    | `li` or `license` | ✅ | create LICENSE file
+|    | `config` | ✅ | create config files
 |    | `p` or `project` | ⬛ | create new project
 ||||
-| config | | | configure start settings
+| `config` | | | configure start settings
 |    | `show` | ⬛ | show current settings 
 |    | `set` | ⬛ | set value to key to settings
 
